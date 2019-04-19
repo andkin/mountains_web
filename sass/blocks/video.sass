@@ -1,0 +1,50 @@
+.video
+
+.video_title
+	color: #000000
+	font-family: 'Oswald', sans-serif
+	font-size: 35px
+	font-weight: 400
+	letter-spacing: 0.29px
+	margin-bottom: 25px
+
+.video_item
+	position: relative
+	margin-bottom: 36px
+
+
+.play_icon
+	position: relative
+	width: 48px
+	height: 48px
+	background-color: white
+	border-radius: 24px 
+	&:before
+		position: absolute
+		left: 50%
+		top: 50%
+		margin-left: -4px
+		margin-top: -5.5px
+		content: ""
+		display: block
+		width: 0
+		height: 0
+		border-top: 5.5px solid transparent
+		border-left: 8px solid black
+		border-bottom: 5.5px solid transparent
+	box-shadow: 0 0 10px 5px black
+		
+.video_item .play_icon
+	position: absolute
+	left: -5px
+	bottom: -5px
+
+.video_centre
+	position: relative
+	margin-top: 50px
+
+
+.video_centre .play_icon
+	position: absolute
+	left: 24px
+	bottom: 60px

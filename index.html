@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<link rel="stylesheet" href="styles/mine.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Oswald:400,700" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
+	<div class="navigation">
+		
+		<div class="logo">
+			<a href="#">
+				<img class="logoimage" src="images/mountains/logonav.png" alt="Mountains">
+			</a>
+		</div>
+
+		<div id="menu" class="nav">
+			<a href="#" class="nav_item nav_item--active">Home</a>
+			<a href="#about" class="nav_item">About</a>
+			<a href="#blog" class="nav_item">Blog</a>
+			<a href="#contact" class="nav_item">Contact</a>
+		</div>
+
+	</div>
+	<div class="header">
+		<h1 class="header_title">The Mountains</h1>
+		<p class="header_description">For us, the best mountains are those that capture the imagination of locals and visitors alike. The ones that have played a role in local folklore for centuries, and which continue to draw travelers from around the world today.</p>
+
+		<div class="header_content">
+			<div class="reviews">
+				<div class="reviews_title"><a id="about">Recent Reviews</a></div>
+				<div class="review_item">
+					<div class="review_item_text">
+						"With enough determination, any bloody idiot can get up this hill," Hall observed. "The trick is to get back down alive."
+					</div>
+					<div class="review_item_author">
+						Jon Krakauer
+					</div>
+					<div class="review_item_text">
+						"With enough determination, any bloody idiot can get up this hill," Hall observed. "The trick is to get back down alive."
+					</div>
+					<div class="review_item_author">
+						Andrii Kindrat
+					</div>
+
+				</div>
+			</div>
+
+			<div class="video_centre">
+				<button class="play_icon" oncklick="playVidFirst()" type="button"></button>
+				<video id="myVideoFirst" width="600px" height="410px">
+					<source src="video/mountv1.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div class="video">
+				<div class="video_title">User videos</div>
+
+					<div class="video_item">
+						<button class="play_icon" oncklick="function()" type="button"></button>
+						<video id="myVideoSecond" width="290px" height="155px">
+							<source src="video/mountv1.mp4" type="video/mp4">
+						</video>
+						<script type="text/javascript" src="scripts/script.js"></script>
+
+					</div>
+
+					<div class="video_item">
+						<button class="play_icon" oncklick="playVidThird()"></button>
+						<video id="myVideoThird" width="290px" height="155px">
+							<source src="video/mountv2.mp4" type="video/mp4">
+						</video>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2 class="second_header">Popular Mountains</h2>
+			<div class="mountains">
+				<div class="mountain">
+					<div class="mountain_photo">
+						<img src="/images/mountains/mountp1.jpeg" height="300" style="max-width: 280px" alt="Elbrus">
+					</div>
+
+					<div class="mountain_name">
+						Elbrus
+					</div>
+
+					<div class="mountain_height">
+						5,642 meters
+					</div>
+				</div>
+
+				<div class="mountain">
+					<div class="mountain_photo">
+						<img src="/images/mountains/mountp2.jpg" height="300" style="max-width: 280px" alt="Hoverla">
+					</div>
+
+					<div class="mountain_name">
+						Hoverla
+					</div>
+
+					<div class="mountain_height">
+						2,061 meters
+					</div>
+				</div>
+
+				<div class="mountain">
+					<div class="mountain_photo">
+						<img src="/images/mountains/mountp3.jpg" height="300" style="max-width: 280px" alt="Everest">
+					</div>
+
+					<div class="mountain_name">
+						Everest
+					</div>
+
+					<div class="mountain_height">
+						8,848 meters
+					</div>
+				</div>
+			</div>
+
+			<h2 class="second_header"><a id="blog">Blog</a></h2>
+
+			<div class="blog_item">
+				<div class="blog_item_image">
+					<img src="images/mountains/mount2.jpg" height="500" style="max-width: 500px">
+				</div>
+
+				<div class="blog_item_info">
+					<div class="blog_item_header">
+						Hoverla
+					</div>
+
+					<div class="blog_item_description">
+						In the 20th century the mountain increasingly gained popularity as an extreme sports site. Some routes are classified as 1A in the winter period (from late autumn to May), according to the Soviet grading system. Nowadays because of its prominence too many unskilled extreme-lovers are taking attempts to climb it in winter, resulting in regular frostbite or even deaths. The most popular approach to the summit starts from the tour-basa Zaroslyak on the mountain's east face and gains more than 3,600 vertical feet (1,100 meters) along a steep path with few switchbacks.
+					</div>
+
+					<a href="#" class="blog_item_readmore">Read More</a>
+				</div>
+			</div>
+
+			<div class="blog_item">
+				<div class="blog_item_image">
+					<img src="images/mountains/mount3.jpg" height="500" style="max-width: 500px">
+				</div>
+
+				<div class="blog_item_info">
+					<div class="blog_item_header">
+						Everest
+					</div>
+
+					<div class="blog_item_description">
+						In the 20th century the mountain increasingly gained popularity as an extreme sports site. Some routes are classified as 1A in the winter period (from late autumn to May), according to the Soviet grading system. Nowadays because of its prominence too many unskilled extreme-lovers are taking attempts to climb it in winter, resulting in regular frostbite or even deaths. The most popular approach to the summit starts from the tour-basa Zaroslyak on the mountain's east face and gains more than 3,600 vertical feet (1,100 meters) along a steep path with few switchbacks.
+					</div>
+
+					<a href="#" class="blog_item_readmore">Read More</a>
+				</div>
+			</div>
+
+
+	</div>
+
+	</div>
+
+	
+</body>
+</html>
